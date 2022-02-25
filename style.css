@@ -153,26 +153,28 @@ form {
     max-width: 25em;
 }
 
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 980px) {
+    header ul {
+        padding: 0 10px;
+    }
+    contact {
+        font-size: 1.5rem;
+        height: 1.5rem; 
+    }
+}
+@media screen and (max-width: 768px) {
     header {
-      background: slategray
-      
+        padding-top: 5%;
     }
-  }
-  
-  
-  @media screen and (max-width: 768px) {
-    nav {
-      background-color: slategray;
-      
+    header {
+        text-align: center;
     }
-  }
-  
-  
-  @media screen and (max-width: 576px) {
-    header line-height-step: ; {
-      float: inline-end;
+    
+}
+@media screen and (max-width: 575px) {
+    header {
+        padding-top: 30%;
+        background-color: black;
     }
-  }
-  
+}
 
