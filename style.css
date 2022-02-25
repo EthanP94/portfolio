@@ -110,7 +110,7 @@ h1, h2 {
     text-decoration: underline;
 }
 
-.aboutme {
+#aboutme {
     display: flex;
     justify-content: center;
   
@@ -120,44 +120,49 @@ h1, h2 {
 
 }
 
-.aboutimg {
+#aboutimg {
 
 }  
-.aboutme img {
+#aboutme img {
     max-height: 15em;
 }
 
-.aboutme p {
+#aboutme p {
     padding: 20px;
 
 }
 
-.work {
+#work {
     padding: 5px;
 }
 
-.work img {
+#work img {
    max-height: 15em;
-   
     
 }
 
-.work img:hover {
-    box-shadow: inset;
-}
 
 form {
     display: flex;
     flex-direction: column;
-    margin: 5px;
-    max-width: 25em;
+    font-size: 50px;
+    font-family:'Exo 2', sans-serif;
+    color: black;
+}
+
+.contact {
+    color: black;
+}
+
+.contact:hover {
+    color: blueviolet;
 }
 
 @media screen and (max-width: 980px) {
     header ul {
         padding: 0 10px;
     }
-    contact {
+    .contact {
         font-size: 1.5rem;
         height: 1.5rem; 
     }
@@ -175,6 +180,14 @@ form {
     header {
         padding-top: 30%;
         background-color: black;
+    }
+
+    #contact {
+        font-size: 20px;
+    }
+
+    #work img {
+        max-height: 200px;
     }
 }
 
