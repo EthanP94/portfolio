@@ -6,5 +6,5 @@ https://github.com/EthanP94/portfolio
 
 https://ethanp94.github.io/portfolio/
 
-![](.images/portfolio.screenshot.png)
 
+![](./assets/images/portfolio.screenshot.png)
