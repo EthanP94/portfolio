@@ -1,72 +1,312 @@
 <!DOCTYPE html>
 <html lang="en">
-
-  <head>
-    <title>Ethan Plott Portfolio</title>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" type="text/css" href="./assets/css/style.css" />
-  </head>
-  <body>
-      <header>
-          <span class="logo" id="logo">Ethan Plott Portfolio</span>
-             <nav>
-                <ul>
-                    <li><a href="#aboutme">About Me</a></li>
-                    <li><a href="#work">Work</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
-            </nav>
-        </header>
-            
-            <section class="main">
-                <h1>Hello</h1>
-                <h1>and Welcome to my Portfolio</h1>
-            </section>
-            <content>
-                <h2>About</h2>
-            <Section id="aboutme">
-                <div class="aboutimg">
-                <img src="./assets/images/Thailand.jpg" alt="Picture of myself in Thailand in front of a Temple in Chaing Rai">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body class="main-content">
+    <header class="container header active" id="home">
+        <div class="header-content">
+            <div class="left-header">
+                <div class="h-shape"></div>
+                <div class="image">
+                    <img src="img/hero.jpg" alt="">
                 </div>
+            </div>
+            <div class="right-header">
+                <h1 class="name">
+                    Hi, I'm <span>Ethan Plott.</span>
+                    A Web Developer.
+                </h1>
                 <p>
-                    I was born and raised in Southern California and grew up in sunny Palm Springs California, which is know for its golf courses. After highschool, I moved to Las Vegas to pursue a passion in cooking. After 3 years there, I realized I wanted more for my life. I moved back from Nevada to California to go to school. After spending two years in college I left to figuer out what I  was interested in as I felt the traditional route of education and a job was not something I wanted. After a few years, I really started to get into computers and anything that has to do with it. I found I became really interested in coding and decided to take the leap and make it my career. 
+                   
                 </p>
-                
-            </Section>
-
-        <section id="work">
-            <h1>Work</h1>
-        <a href="https://ethanp94.github.io/The-Grand-Line/" target = "_blank">
-            <img src="./assets/images/grand-line-anime-screenshot01.jpg"alt="Anime Search Website">
-            </a>
-        <a href="https://ethanp94.github.io/My-Weather-Dashbord/" target="_blank">
-            <img  src="./assets/images/mwd screenshot .png" alt="Wheather App Api">
-            </a>
-        <a href="https://ethanp94.github.io/password.genie/" target="_blank">
-                <img  src="./assets/images/password-genie-1.png" alt="Password Generator">
-                </a>
-        <a href="https://ethanp94.github.io/JS.Quiz/" target="_blank">
-                <img  src="./assets/images/Quiz-screenshot.png" alt="Timed Java Script Quiz">
-                </a>
-        <a href="https://ethanp94.github.io/workday.schedule/" target="_blank">
-                <img  src="./assets/images/wds.1.png" alt="A simple workday schedule">
-                </a>
+                <div class="btn-con">
+                    <a href="https://docs.google.com/document/d/11he9FMj1uM2phs1uVD8-Rl9oz-D2p85vybyNmm7iuWc/edit?usp=sharing" class="main-btn">
+                        <span class="btn-text">Resume</span>
+                        <span class="btn-icon"><i class="fas fa-download"></i></span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="container about" id="about">
+            <div class="main-title">
+                <h2>About <span>me</span><span class="bg-text">my stats</span></h2>
+            </div>
+            <div class="about-container">
+                <div class="left-about">
+                    <h4>Information About me</h4>
+                    <p>
+                        I was born and raised in Southern California and grew up in 
+                        sunny Palm Springs California.
+                        <br /> <br /> I found my love coding and computers and 
+                        decided to take the leap and make it my career.
+                    </p>
+                    <div class="btn-con">
+                        <a href="https://docs.google.com/document/d/11he9FMj1uM2phs1uVD8-Rl9oz-D2p85vybyNmm7iuWc/edit?usp=sharing" class="main-btn">
+                            <span class="btn-text">Resume</span>
+                            <span class="btn-icon"><i class="fas fa-download"></i></span>
+                        </a>
+                    </div>
+                </div>
+                <div class="right-about">
+                    <div class="about-item">
+                        <div class="abt-text">
+                            <p class="large-text"></p>
+                            <p class="small-text">Projects <br /> Completed</p>
+                        </div>
+            <div class="about-stats">
+                <h4 class="stat-title">My Skills</h4>
+                <div class="progress-bars">
+                    <div class="progress-bar">
+                        <p class="prog-title">html5</p>
+                        <div class="progress-con">
+                            <p class="prog-text">80%</p>
+                            <div class="progress">
+                                <span class="html"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="progress-bar">
+                        <p class="prog-title">css3</p>
+                        <div class="progress-con">
+                            <p class="prog-text">95%</p>
+                            <div class="progress">
+                                <span class="css"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="progress-bar">
+                        <p class="prog-title">javascript</p>
+                        <div class="progress-con">
+                            <p class="prog-text">75%</p>
+                            <div class="progress">
+                                <span class="js"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="progress-bar">
+                        <p class="prog-title">NodeJS</p>
+                        <div class="progress-con">
+                            <p class="prog-text">87%</p>
+                            <div class="progress">
+                                <span class="node"></span>
+                            </div>
+                        </div>
+                    </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </section>
-        <section id="contact">
-                <h1>Contact Me</h1>
-            <form>
-                <a href="email:ethan.plott@yahoo.com" class="contact">ethan.plott@yahoo.com</a>
-                <a href="https://github.com/EthanP94" class="contact">Github</a>
-            </form>
+        <section class="container" id="portfolio">
+            <div class="main-title">
+                <h2>My <span>Portfolio</span><span class="bg-text">My Work</span></h2>
+            </div>
+            <p class="port-text">
+                Here is some of my work that I've done in various programming languages.
+            </p>
+            <div class="portfolios">
+                <div class="portfolio-item">
+                    <div class="image">
+                        <img src="img/recipe.box.ss.png" alt="screen shot of homepage">
+                    </div>
+                    <div class="hover-items">
+                        <h3>Project Source</h3>
+                        <div class="icons">
+                            <a href="https://github.com/EthanP94/The-Recipe-Box" class="icon">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <div class="image">
+                        <img src="img/grandline.ss.png" alt="homepage screenshot">
+                    </div>
+                    <div class="hover-items">
+                        <h3>Project Source</h3>
+                        <div class="icons">
+                            <a href="https://github.com/EthanP94/The-Grand-Line" class="icon">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <div class="image">
+                        <img src="img/note.keeper.ss.png" alt="">
+                    </div>
+                    <div class="hover-items">
+                        <h3>Project Source</h3>
+                        <div class="icons">
+                            <a href="https://github.com/EthanP94/Note-Keeper" class="icon">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <div class="image">
+                        <img src="img/Team-builder SS.png" alt="">
+                    </div>
+                    <div class="hover-items">
+                        <h3>Project Source</h3>
+                        <div class="icons">
+                            <a href="https://github.com/EthanP94/Team-Builder" class="icon">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <div class="image">
+                        <img src="img/Quiz-screenshot.png" alt="">
+                    </div>
+                    <div class="hover-items">
+                        <h3>Project Source</h3>
+                        <div class="icons">
+                            <a href="https://github.com/EthanP94/JS.Quiz" class="icon">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <div class="image">
+                        <img src="img/mwd.screenshot.png" alt="">
+                    </div>
+                    <div class="hover-items">
+                        <h3>Project Source</h3>
+                        <div class="icons">
+                            <a href="https://github.com/EthanP94/My-Weather-Dashbord" class="icon">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                    </div>
+                </div>
+            </div>
         </section>
-     <footer>
-            
+        <section class="container" id="blogs">
+                <div class="contact-content-con">
+                    <div class="left-contact">
+                        <h4>Contact me here</h4>
+                        <p>
+                        </p>
+                        <div class="contact-info">
+                            <div class="contact-item">
+                                <div class="icon">
+                                    <i class="fas fa-map-marker-alt"></i>
+                                    <span>Location</span>
+                                </div>
+                                <p>
+                                    : Palm Springs, California
+                                </p>
+                            </div>
+                            <div class="contact-item">
+                                <div class="icon">
+                                    <i class="fas fa-envelope"></i>
+                                    <span>Email</span>
+                                </div>
+                                <p>
+                                    <span>: ethan.plott@yahoo.com</span>
+                                </p>
+                            </div>
+                            <div class="contact-item">
+                                <div class="icon">
+                                    <i class="fas fa-user-graduate"></i>
+                                    <span>Education</span>
+                                </div>
+                                <p>
+                                    <span>: UCLA Coding Bootcamp</span>
+                                </p>
+                            </div>
+                            <div class="contact-item">
+                                <div class="icon">
+                                    <i class="fas fa-user-graduate"></i>
+                                    <span>Mobile Number</span>
+                                </div>
+                                <p>
+                                    <span>: 7603438087</span>
+                                </p>
+                            </div>
+                            <div class="contact-item">
+                                <div class="icon">
+                                    <i class="fas fa-globe-america"></i>
+                                    <span>Languages</span>
+                                </div>
+                                <p>
+                                    <span>: English </span>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="contact-icons">
+                            <div class="contact-icon">
+                                <a href="https://github.com/EthanP94" target="_blank">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                                <a href="https://www.linkedin.com/in/ethan-plott-045232238/" target="_blank">
+                                    <i class="fab fa-linkedin-in"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="right-contact">
+                        <form action="" class="contact-form">
+                            <div class="input-control i-c-2">
+                                <input type="text" required placeholder="YOUR NAME">
+                                <input type="email" required placeholder="YOUR EMAIL">
+                            </div>
+                            <div class="input-control">
+                                <input type="text" required placeholder="ENTER SUBJECT">
+                            </div>
+                            <div class="input-control">
+                                <textarea name="" id="" cols="15" rows="8" placeholder="Message Here..."></textarea>
+                            </div>
+                            <div class="submit-btn">
+                                <a href="#" class="main-btn">
+                                    <span class="btn-text">Download CV</span>
+                                    <span class="btn-icon"><i class="fas fa-download"></i></span>
+                                </a>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
 
-    </footer>
-    </content>
-    </body>
-  </html>
-
-
-    
+    <div class="controls">
+        <div class="control active-btn" data-id="home" >
+            <i class="fas fa-home"></i>
+        </div>
+        <div class="control" data-id="about">
+            <i class="fas fa-user"></i>
+        </div>
+        <div class="control" data-id="portfolio">
+            <i class="fas fa-briefcase"></i>
+        </div>
+        <div class="control" data-id="blogs">
+            <i class="far fa-newspaper"></i>
+        </div>
+        <div class="control" data-id="contact">
+            <i class="fas fa-envelope-open"></i>
+        </div>
+    </div>
+    <div class="theme-btn">
+        <i class="fas fa-adjust"></i>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
